@@ -1,17 +1,17 @@
 {
-    "RootView": {
-        "id": "AlayoutRoot",
-        "width": "480",
-        "height": "280",
-        "type": "do_ALayout",
-        "views": [
-            {
-                "id": "do_imageview_1",
-                "width": "480",
-                "height": "280",
-                "type": "do_ImageView",
-                "source": "source://image/ding/top_1.jpg"
-            }
-        ]
-    }
+	"RootView":{
+		"width":"480",
+		"id":"AlayoutRoot",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"width":"480",
+				"id":"do_imageview_1",
+				"source":"source://image/ding/top_1.jpg",
+				"type":"do_ImageView",
+				"height":"280"
+			}
+		],
+		"height":"280"
+	}
 }

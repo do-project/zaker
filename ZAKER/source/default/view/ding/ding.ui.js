@@ -82,13 +82,20 @@ var grid_view1, listdata;
 grid_view1 = ui("grid_view");
 listdata = mm("do_ListData");
 grid_view1.bindItems(listdata);
+var _data;
 
  storage.readFile("data://ding.json", function(data){// 读取文件
      listdata.addData(data); // 给ListData添加数据
+     _data=data;
      grid_view1.refreshItems(); // 刷新ListView 行数据;
  });
+ 
  /**********************************************************************************************************/
-
+ grid_view1.on("touch",function(data, e){                       //griview点击事件
+//	 nf.alert(_data[data]);
+	 app.openPage({source:"source://view/ding/ding_de.ui", data:data, animationType:"", isFullScreen:false, keyboardMode:"default", scriptType:""}, function(data, e){});
+	});
+ /**********************************************************************************************************/
  var do_scrollview_1=ui("do_scrollview_1");
  do_scrollview_1.toBegin();
  

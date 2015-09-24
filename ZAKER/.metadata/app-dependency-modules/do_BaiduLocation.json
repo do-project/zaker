@@ -4,7 +4,7 @@
   "Type": "SM",
   "Name": "定位服务",
   "Version": "Internal",
-  "Description": "利用设备当前的GPS信息（GPS定位），基站信息（基站定位）和Wi-Fi信息（Wi-Fi定位）完成定位，根据设备当前的实际情况（如是否开启GPS，是否连接网络，是否扫描到Wi-Fi信息等）生成定位依据，并根据开发者设置的实际定位策略（包括三种：高精度模式，低功耗模式，仅用设备模式）进行定位",
+  "Description": "利用设备当前的GPS信息（GPS定位），基站信息（基站定位）和Wi-Fi信息（Wi-Fi定位）完成定位，根据设备当前的实际情况（如是否开启GPS，是否连接网络，是否扫描到Wi-Fi信息等）进行定位",
   "Icon": "https://deviceone.blob.core.chinacloudapi.cn/store/R/20150624/3d1b792b-1d5a-4be8-b756-3d12f85519ad.png",
   "IOS": {
     "Support": 1,
@@ -31,7 +31,7 @@
     {
       "ID": "result",
       "Description": "接收到定位/更新定位时候触发",
-      "ReturnType": "Number",
+      "ReturnType": "Node",
       "ReturnDesc": "{latitude:'纬度​'，longitude:'经度', address:'北京市海淀区'}"
     }
   ],
@@ -49,7 +49,7 @@
           "Type": "String",
           "Required": 0,
           "DefaultValue": "high",
-          "Description": "high:高精度定位模式\\r\\n low：低精度\\r\\n middle: 中精度"
+          "Description": "high:高精度定位模式；low：低精度；middle: 中精度"
         },
         {
           "ID": "isLoop",
@@ -64,9 +64,9 @@
     {
       "ID": "stop",
       "Name": "停止定位",
-      "Description": "",
+      "Description": "停止定位",
       "ReturnType": "Bool",
-      "ReturnDesc": "停止定位是否成功",
+      "ReturnDesc": "",
       "Paras": []
     }
   ],
