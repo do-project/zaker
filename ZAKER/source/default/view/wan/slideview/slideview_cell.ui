@@ -1,74 +1,75 @@
 {
-    "RootView": {
-        "id": "AlayoutRoot",
-        "x": "1",
-        "width": "480",
-        "height": "600",
-        "type": "do_ALayout",
-        "views": [
-            {
-                "id": "do_alayout_1",
-                "width": "480",
-                "height": "412",
-                "type": "do_ALayout",
-                "views": [
-                    {
-                        "id": "do_imageview_1",
-                        "x": "50",
-                        "y": "34",
-                        "width": "382",
-                        "height": "362",
-                        "type": "do_ImageView"
-                    }
-                ]
-            },
-            {
-                "id": "do_label_1",
-                "x": "77",
-                "y": "405",
-                "width": "336",
-                "height": "64",
-                "type": "do_Label",
-                "fontSize": "25",
-                "textAlign": "center"
-            },
-            {
-                "id": "do_label_2",
-                "x": "53",
-                "y": "476",
-                "width": "383",
-                "height": "38",
-                "type": "do_Label",
-                "fontColor": "C0C0C0FF",
-                "fontSize": "15",
-                "textAlign": "center"
-            },
-            {
-                "id": "do_alayout_2",
-                "x": "122",
-                "y": "517",
-                "width": "247",
-                "height": "42",
-                "type": "do_ALayout",
-                "views": [
-                    {
-                        "id": "do_imageview_2",
-                        "x": "34",
-                        "y": "2",
-                        "width": "184",
-                        "height": "27",
-                        "type": "do_ImageView"
-                    }
-                ]
-            },
-            {
-                "id": "do_alayout_3",
-                "y": "583",
-                "width": "480",
-                "height": "20",
-                "bgColor": "DFDFDFFF",
-                "type": "do_ALayout"
-            }
-        ]
-    }
+	"RootView":{
+		"bgColor":"FFFFFFFF",
+		"x":"1",
+		"width":"480",
+		"id":"AlayoutRoot",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"width":"480",
+				"id":"do_alayout_1",
+				"type":"do_ALayout",
+				"views":[
+					{
+						"x":"50",
+						"width":"382",
+						"y":"34",
+						"id":"do_imageview_1",
+						"type":"do_ImageView",
+						"height":"362"
+					}
+				],
+				"height":"412"
+			},
+			{
+				"textAlign":"center",
+				"x":"77",
+				"width":"336",
+				"y":"405",
+				"fontSize":"25",
+				"id":"do_label_1",
+				"type":"do_Label",
+				"height":"64"
+			},
+			{
+				"textAlign":"center",
+				"x":"53",
+				"width":"383",
+				"y":"476",
+				"fontSize":"15",
+				"id":"do_label_2",
+				"type":"do_Label",
+				"fontColor":"C0C0C0FF",
+				"height":"38"
+			},
+			{
+				"x":"122",
+				"width":"247",
+				"y":"517",
+				"id":"do_alayout_2",
+				"type":"do_ALayout",
+				"views":[
+					{
+						"x":"34",
+						"width":"184",
+						"y":"2",
+						"id":"do_imageview_2",
+						"type":"do_ImageView",
+						"height":"27"
+					}
+				],
+				"height":"42"
+			},
+			{
+				"bgColor":"DFDFDFFF",
+				"width":"480",
+				"y":"583",
+				"id":"do_alayout_3",
+				"type":"do_ALayout",
+				"height":"20"
+			}
+		],
+		"height":"600"
+	}
 }
