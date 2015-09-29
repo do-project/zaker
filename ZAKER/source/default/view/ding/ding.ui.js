@@ -40,7 +40,7 @@ jia.on("touchDown",function(data, e){
 jia.on("touch",function(data, e){
     jia_.source = "source://image/ding/add.png"
     jia.bgColor = "00000000";
-//    app.openPage({source:"source://view/add.ui", data:"", animationType:"", isFullScreen:false, keyboardMode:"default", scriptType:""}, function(data, e){});
+    app.openPage({source:"source://view/ding/sousuo.ui", data:"", animationType:"", isFullScreen:false, keyboardMode:"default", scriptType:""}, function(data, e){});
 });
 
 

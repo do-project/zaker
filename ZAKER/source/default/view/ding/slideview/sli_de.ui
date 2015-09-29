@@ -17,13 +17,13 @@
 						"type":"do_ALayout",
 						"views":[
 							{
-								"x":"17",
-								"width":"35",
-								"y":"13",
+								"x":"21",
+								"width":"28",
+								"y":"17",
 								"id":"point_",
 								"source":"source://image/ding/add.png",
 								"type":"do_ImageView",
-								"height":"37"
+								"height":"27"
 							}
 						],
 						"height":"63"
